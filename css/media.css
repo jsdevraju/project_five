@@ -1,0 +1,124 @@
+@media (max-width:768px){
+    .header .navbar .menu ul{
+        position: absolute;
+        top: 0;
+        right: -500px;
+        width:320px;
+        height: 100vh;
+        background-color: #03033b;
+        transition: 0.5s ease-in-out;
+        flex-direction: column;
+    }
+    .header .navbar .menu ul.active{
+        right: 0;
+    }
+    .header .navbar .menu ul li{
+        margin-left: 0px;
+    }
+
+    .bars{
+        display: initial;
+    }
+
+    .header .navbar .menu ul li a{
+        color: var(--white-color) !important;
+        padding:1.5rem !important;
+        text-align: center;
+    }
+
+    .header .navbar .menu ul li .close{
+        display: block !important;
+    }
+
+    #about .about_wrap{
+        flex-direction: column;
+    }
+    #about .about_wrap .left{
+        margin-bottom: 2rem;
+    }
+    #destimons .trip_box{
+        flex-direction: column;
+    }
+    #destimons .trip_box .single_trip{
+        width: 100%;
+    }
+    #service .service_main .service_box{
+        width: 45%;
+    }
+    #our_gallery .gallery_view{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #our_gallery .gallery_view .gallery_img{
+        width: 100%;
+    }
+    #package .package_main{
+        flex-direction: column;
+    }
+    #package .package_main .single_package{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    #partner .partner_main{
+        flex-wrap: wrap;
+    }
+    .partner {
+        margin-top: 1rem;
+    }
+    #testimonial .testimonial_main{
+        flex-direction: column;
+    }
+    #testimonial .testimonial_main .testimoni_single{
+        width: 100%;
+    }
+    #testimonial .testimonial_main .testimoni_single .client_img::after{
+        right: 295px;
+    }
+    #blog .blog_main{
+        flex-direction: column;
+    }
+    #blog .blog_main .single_blog{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    #contact .form{
+        width: 100%;
+    }
+    #contact .form .from_control{
+        width: 100%;
+        margin-left: 1rem;
+    }
+    .footer .footer_wrap{
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width:420px){
+    #home .home_content{
+        line-height: 37px;
+    }
+    #home .home_content h1{
+        font-size: 2rem;
+    }
+    #home .home_content p{
+        font-size: 1rem;
+    }
+    #about .about_wrap .left .single_box {
+        width: 100% !important;
+        margin-bottom: 1rem;
+    }
+    #about .about_wrap .right {
+        width: 100%;
+    }
+    #service .service_main .service_box {
+        width: 100%;
+    }
+    #partner .partner_main{
+        justify-content: center;
+    }
+    #testimonial .testimonial_main .testimoni_single .client_img::after {
+        right: 105px;
+    }
+}
